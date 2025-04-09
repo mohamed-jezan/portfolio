@@ -38,8 +38,8 @@ const NavBar = () => {
           {/* Desktop menu */}
           <div className={`md:flex items-center space-x-8 ${isMenuOpen ? 'absolute top-full left-0 right-0 glass-effect p-4 shadow-lg md:relative md:shadow-none md:p-0' : 'hidden md:flex'}`}>
             <NavLink href="#about">About</NavLink>
-            <NavLink href="#projects">Projects</NavLink>
             <NavLink href="#skills">Skills</NavLink>
+            <NavLink href="#projects">Projects</NavLink>
             <a 
               href="mailto:jezanarm@gmail.com"
               className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-md"

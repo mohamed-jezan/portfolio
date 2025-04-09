@@ -138,9 +138,9 @@ function App() {
               <h3 className="text-xl font-semibold">Databases</h3>
             </div>
             <div className="space-y-4">
-              <SkillBar name="MySQL" level={80} />
-              <SkillBar name="Firebase" level={75} />
-              <SkillBar name="MongoDB" level={70} />
+              <SkillBar name="MySQL" level={85} />
+              <SkillBar name="Firebase" level={80} />
+              <SkillBar name="MongoDB" level={80} />
             </div>
           </div>
 
@@ -151,7 +151,8 @@ function App() {
             </div>
             <div className="space-y-4">
               <SkillBar name="React" level={85} />
-              <SkillBar name="Node.js" level={75} />
+              <SkillBar name="Flutter" level={90} />
+              <SkillBar name="Node.js" level={80} />
             </div>
           </div>
         </div>
