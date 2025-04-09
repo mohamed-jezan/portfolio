@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Mail, Terminal, Code, Database, Layout, Briefcase, GraduationCap, MapPin, Phone } from 'lucide-react';
 import NavBar from './components/NavBar';
 import Section from './components/Section';
@@ -169,7 +168,7 @@ function App() {
           />
           <ProjectCard
             title="E-commerce Website"
-            description="Developed a feature-rich e-commerce platform using WordPress, implementing custom themes and plugins."
+            description=""
             tech={['WordPress', 'PHP', 'MySQL']}
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
           />
