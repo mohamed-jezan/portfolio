@@ -161,13 +161,13 @@ function App() {
       <Section id="projects" title="Projects" className="bg-gray-50">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            title="Student Management System"
-            description="A comprehensive MERN stack-based system for managing student data, featuring real-time updates and intuitive interface."
-            tech={['MongoDB', 'Express', 'React', 'Node.js']}
-            image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800"
+            title="Cassava Healthy Finder"
+            description="Cassava Healthy Finder is a Flutter-based app powered by machine learning that helps farmers quickly detect cassava diseases like Cassava Mosaic Disease (CMD) and Cassava Green Mite (CGM), enabling timely action and better crop yields."
+            tech={['Flutter', 'Firebase', 'Firestore', 'Dart', 'TensorFlow']}
+            image="c:\Users\moham\Downloads\onboarding1.png"
           />
           <ProjectCard
-            title="E-commerce Website"
+            title=""
             description="Developed a feature-rich e-commerce platform using WordPress, implementing custom themes and plugins."
             tech={['WordPress', 'PHP', 'MySQL']}
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
