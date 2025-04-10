@@ -168,7 +168,7 @@ function App() {
           />
           <ProjectCard
             title="E-commerce Website"
-            description="abcd"
+            description="abcde"
             tech={['WordPress', 'PHP', 'MySQL']}
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
           />
