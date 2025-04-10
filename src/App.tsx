@@ -1,3 +1,4 @@
+import React from 'react';
 import { Github, Linkedin, Mail, Terminal, Code, Database, Layout, Briefcase, GraduationCap, MapPin, Phone } from 'lucide-react';
 import NavBar from './components/NavBar';
 import Section from './components/Section';
@@ -164,19 +165,19 @@ function App() {
             title="Cassava Healthy Finder"
             description="Cassava Healthy Finder is a Flutter-based app powered by machine learning that helps farmers quickly detect cassava diseases like Cassava Mosaic Disease (CMD) and Cassava Green Mite (CGM), enabling timely action and better crop yields."
             tech={['Flutter', 'Firebase', 'Firestore', 'Dart', 'TensorFlow']}
-            image="https://www.istockphoto.com/photo/taking-photo-in-smart-phone-at-banana-field-gm1288952435-384759974"
+            image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800"
           />
           <ProjectCard
-            title="E-commerce Website"
-            description="abcdef"
-            tech={['WordPress', 'PHP', 'MySQL']}
+            title="MRTK FOOD & DRINK - Trendy Restaurant E-Commerce Platform"
+            description="MRTK delivers restaurant-quality meals through a seamless online platform. Explore a rich menu, order easily, and enjoy exceptional taste and service from the comfort of your home."
+            tech={['HTML', 'CSS', 'JavaScript', 'PHP','MySQL']}
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
           />
           <ProjectCard
             title="Disease Detection Model"
-            description="Mobile app for disease detection using Flutter and Firebase, featuring real-time notifications and cloud storage."
-            tech={['Flutter', 'Firebase', 'Firestore']}
-            image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800"
+            description="This is a full-stack web application that I designed and developed using the MERN stack — MongoDB, Express.js, React, and Node.js. The goal of this project is to create a fully functional, responsive, and dynamic web application from scratch using modern web development technologies."
+            tech={['React', 'MongoDB', 'Express.js', 'Node.js', 'JavaScript']}
+            image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800"
           />
         </div>
       </Section>
