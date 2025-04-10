@@ -166,18 +166,20 @@ function App() {
             description="Cassava Healthy Finder is a Flutter-based app powered by machine learning that helps farmers quickly detect cassava diseases like Cassava Mosaic Disease (CMD) and Cassava Green Mite (CGM), enabling timely action and better crop yields."
             tech={['Flutter', 'Firebase', 'Firestore', 'Dart', 'TensorFlow']}
             image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800"
+            link="https://github.com/mohamed-jezan/Final-Group-Project"
           />
           <ProjectCard
             title="MRTK FOOD & DRINK - Trendy Restaurant E-Commerce Platform"
             description="MRTK delivers restaurant-quality meals through a seamless online platform. Explore a rich menu, order easily, and enjoy exceptional taste and service from the comfort of your home."
             tech={['HTML', 'CSS', 'JavaScript', 'PHP','MySQL']}
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
+            link="https://github.com/mohamed-jezan/MRTK-Restaurant"
           />
           <ProjectCard
             title="MERN Stack Full-Stack Web Application"
             description="A full-stack web application I built using the MERN stack to deliver a responsive, dynamic, and modern user experience from scratch."
             tech={['React', 'MongoDB', 'Express.js', 'Node.js', 'JavaScript']}
-            image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800"
+            image="https://github.com/mohamed-jezan/MRTKProductStore"
           />
         </div>
       </Section>

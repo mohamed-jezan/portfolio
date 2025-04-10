@@ -5,11 +5,12 @@ interface ProjectCardProps {
   description: string;
   tech: string[];
   image?: string;
+  link?: string; // ✅ added link to the props interface
 }
 
-const ProjectCard = ({ title, description, tech, image }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, tech, image, link }: ProjectCardProps) => {
   return (
-    <div className="hover-card rounded-xl overflow-hidden bg-white">
+    <div className="hover-card rounded-xl overflow-hidden bg-white shadow-md transition-shadow hover:shadow-lg">
       {image && (
         <div className="h-48 overflow-hidden">
           <img 
@@ -22,7 +23,7 @@ const ProjectCard = ({ title, description, tech, image }: ProjectCardProps) => {
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-3 font-poppins">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mb-4">
           {tech.map((t) => (
             <span 
               key={t} 
@@ -32,6 +33,16 @@ const ProjectCard = ({ title, description, tech, image }: ProjectCardProps) => {
             </span>
           ))}
         </div>
+        {link && (
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block text-sm text-blue-600 font-semibold hover:underline"
+          >
+            🔗 View Project
+          </a>
+        )}
       </div>
     </div>
   );
