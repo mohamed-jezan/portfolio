@@ -62,7 +62,7 @@ function App() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full blur-3xl opacity-20"></div>
               <img 
-                src={photo} 
+                src={photo}
                 alt="Mohamed Jezan"
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white/10 shadow-2xl animate-fade-in"
               />
