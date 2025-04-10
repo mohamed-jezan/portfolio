@@ -174,8 +174,8 @@ function App() {
             image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800"
           />
           <ProjectCard
-            title="Disease Detection Model"
-            description="This is a full-stack web application that I designed and developed using the MERN stack — MongoDB, Express.js, React, and Node.js. The goal of this project is to create a fully functional, responsive, and dynamic web application from scratch using modern web development technologies."
+            title="MERN Stack Full-Stack Web Application"
+            description="A full-stack web application I built using the MERN stack to deliver a responsive, dynamic, and modern user experience from scratch."
             tech={['React', 'MongoDB', 'Express.js', 'Node.js', 'JavaScript']}
             image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800"
           />
