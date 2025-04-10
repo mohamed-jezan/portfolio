@@ -5,7 +5,7 @@ import Section from './components/Section';
 import ProjectCard from './components/ProjectCard';
 import SkillBar from './components/SkillBar';
 import SocialLinks from './components/SocialLinks';
-import photo from './images/photo.png';
+import photo from './images/photo.jpg';
 
 function App() {
   return (
