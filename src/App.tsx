@@ -164,7 +164,7 @@ function App() {
             title="Cassava Healthy Finder"
             description="Cassava Healthy Finder is a Flutter-based app powered by machine learning that helps farmers quickly detect cassava diseases like Cassava Mosaic Disease (CMD) and Cassava Green Mite (CGM), enabling timely action and better crop yields."
             tech={['Flutter', 'Firebase', 'Firestore', 'Dart', 'TensorFlow']}
-            image="https://unsplash.com/photos/a-man-holding-a-cell-phone-EKWwYxYUeQQ"
+            image="https://www.istockphoto.com/photo/concept-of-using-ai-and-smart-farming-insect-monitoring-of-vegetable-crops-gm1741083263-542752709"
           />
           <ProjectCard
             title="E-commerce Website"
