@@ -179,7 +179,8 @@ function App() {
             title="MERN Stack Full-Stack Web Application"
             description="A full-stack web application I built using the MERN stack to deliver a responsive, dynamic, and modern user experience from scratch."
             tech={['React', 'MongoDB', 'Express.js', 'Node.js', 'JavaScript']}
-            image="https://github.com/mohamed-jezan/MRTKProductStore"
+            image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800"
+            link="https://github.com/mohamed-jezan/MRTKProductStore"
           />
         </div>
       </Section>
